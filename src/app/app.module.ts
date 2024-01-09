@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CapitalizePipe } from './shared/pipes/capitalize.pipe';
 import { TriplePipe } from './shared/pipes/triple.pipe';
+import { RandomPipe } from './shared/pipes/random.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TriplePipe } from './shared/pipes/triple.pipe';
     BrowserModule,
     AppRoutingModule,
     CapitalizePipe,
-    TriplePipe
+    TriplePipe,
+    RandomPipe
   ],
   providers: [],
   bootstrap: [AppComponent]
