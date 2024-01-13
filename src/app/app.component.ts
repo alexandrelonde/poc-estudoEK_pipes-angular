@@ -14,4 +14,8 @@ export class AppComponent {
   programa = {nome: 'Angular', versao: '15' };
   texto = 'aqui está o texto para o teste do pipe personalizado.';
   numero: number = 3;
+
+  //Pipe impuro filter
+  items = ['bezerro', 'bezerra', 'novilha', 'garrote', 'vaca', 'touro'];
+  searchTerm: string = '';
 }

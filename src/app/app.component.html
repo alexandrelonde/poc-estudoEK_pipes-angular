@@ -51,4 +51,24 @@
     </div>
   </section>
 
+
+    <!-- Pipes Personalizados - impuros - parte 2 -->
+    <section class="section">
+      <h2>Pipes Personlizados - Impuros - Parte 2</h2>
+      <div>
+        <p><strong>Procurando um termo pesquisado</strong></p>
+        <input type="text" [(ngModel)]="searchTerm" placeholder="Search...">
+        <ul>
+          <li *ngFor="let item of items | filter:searchTerm">
+            {{ item }}
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+
+
+
+
 </div>
