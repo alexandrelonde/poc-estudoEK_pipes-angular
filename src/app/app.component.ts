@@ -16,6 +16,6 @@ export class AppComponent {
   numero: number = 3;
 
   //Pipe impuro filter
-  items = ['bezerro', 'bezerra', 'novilha', 'garrote', 'vaca', 'touro'];
+  items = ['maçã', 'banana', 'pera', 'laranja', 'abacaxi', 'limão'];
   searchTerm: string = '';
 }
